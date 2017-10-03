@@ -14,5 +14,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "resolutions": {
+    "jquery": "^2.0"
+  },
+  "devDependencies": {
+    "admin-lte": "^2.4.0"
+  }
 }
