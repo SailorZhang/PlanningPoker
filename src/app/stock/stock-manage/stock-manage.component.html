@@ -32,7 +32,7 @@
             <td>{{stock.name}}</td>
             <td>{{stock.price}}</td>
             <td>
-              <app-stars [rating]="stock.rating"></app-stars>
+              <app-stars [readonly]="true" [rating]="stock.rating"></app-stars>
             </td>
             <td>
               <a href="javascript:;" class="btn btn-xs btn-warning" (click)="update(stock)"><span
